@@ -1,0 +1,11 @@
+openai>=1.12.0
+faiss-cpu>=1.9.0
+streamlit>=1.31.0
+tiktoken>=0.6.0
+python-dotenv>=1.0.1
+numpy>=1.24.0
+deepgram-sdk>=3.0.0
+streamlit-webrtc>=0.47.0
+av>=10.0.0
+pydub>=0.25.1
+websockets>=12.0
