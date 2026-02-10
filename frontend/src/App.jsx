@@ -3,7 +3,7 @@ import { createClient, LiveTranscriptionEvents } from '@deepgram/sdk';
 import axios from 'axios';
 import './App.css';
 
-const API_URL = 'http://localhost:8000';
+const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000';
 
 // Constants
 const AUDIO_CHUNK_INTERVAL = 250; // ms
