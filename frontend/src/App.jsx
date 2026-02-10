@@ -4,6 +4,8 @@ import axios from 'axios';
 import './App.css';
 
 const API_URL = import.meta.env.VITE_API_URL || 'https://abbasikov-voice-rag.hf.space';
+console.log(' DEBUG - VITE_API_URL value:', import.meta.env.VITE_API_URL);
+console.log(' DEBUG - Final API_URL:', API_URL);
 
 // Constants
 const AUDIO_CHUNK_INTERVAL = 250; // ms
