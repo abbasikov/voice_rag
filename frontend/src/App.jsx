@@ -49,7 +49,7 @@ function App() {
   // Fetch Deepgram API key on mount
   useEffect(() => {
     fetchApiKeys();
-    checkDocumentStatus();
+    // checkDocumentStatus(); // Removed: Users should explicitly upload documents
     
     // Cleanup function
     return () => {
